@@ -57,7 +57,7 @@ footer a:hover img {
 	border: 4px solid #ebebeb;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) { 
 	.main img {
 		float: none;
 		width: 100%;
@@ -72,10 +72,13 @@ footer a:hover img {
 	    margin: 0 auto;
 	}
 	p {
-		padding: 20px 0;
+		padding: 20px;
 	}
 	h1,h2,h3,h4,h5,h6 {
 		text-align: center;
+	}
+	h3.media-heading {
+		margin: 12px;
 	}
 	.nav>li {
 		text-align: center;
